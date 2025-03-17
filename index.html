@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTF Recipes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>OTF Recipes</h1>
+        <div id="auth-container">
+            <button id="login-button">Login with Google</button>
+        </div>
+        <div id="recipe-container" style="display: none;">
+            <h2>Generated Recipe</h2>
+            <div id="recipe"></div>
+            <button id="favorite-button">Favorite</button>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
