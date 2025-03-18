@@ -21,7 +21,9 @@
   "homepage": "https://github.com/itsdankai/otf-recipes#readme",
   "dependencies": {
     "dotenv": "^16.4.7",
-    "firebase": "^11.4.0"
+    "firebase": "^11.4.0",
+    "glob": "^11.0.1",
+    "inflight": "^1.0.6"
   },
   "devDependencies": {
     "@babel/core": "^7.26.10",
