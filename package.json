@@ -1,11 +1,11 @@
 {
   "name": "otf-recipes",
   "version": "1.0.0",
-  "description": "Open-source web application that utilizes AI to generate recipes.\r =======\r # OTF Recipes",
+  "description": "Open-source web application that utilizes AI to generate recipes.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-	"build": "webpack --mode production",  // Add this line
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,12 @@
   "dependencies": {
     "dotenv": "^16.4.7",
     "firebase": "^11.4.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "babel-loader": "^8.2.2",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0"
   }
 }

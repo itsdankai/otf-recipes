@@ -18,3 +18,4 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_OTF_RECIPES_E7526 }}
           channelId: live
           projectId: otf-recipes-e7526
+          apiKey: ${{ secrets.FIREBASE_API_KEY }}
