@@ -1,0 +1,23 @@
+{
+  "name": "otf-recipes",
+  "version": "1.0.0",
+  "description": "Open-source web application that utilizes AI to generate recipes.\r =======\r # OTF Recipes",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsdankai/otf-recipes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsdankai/otf-recipes/issues"
+  },
+  "homepage": "https://github.com/itsdankai/otf-recipes#readme",
+  "dependencies": {
+    "firebase": "^11.4.0"
+  }
+}
