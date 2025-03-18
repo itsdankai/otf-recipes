@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Open-source web application that utilizes AI to generate recipes.",
   "main": "main.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "repository": {
     "type": "git",
@@ -23,10 +25,11 @@
     "firebase": "^11.4.0"
   },
   "devDependencies": {
-    "webpack": "^5.65.0",
-    "webpack-cli": "^4.9.1",
-    "babel-loader": "^8.2.2",
     "@babel/core": "^7.15.0",
-    "@babel/preset-env": "^7.15.0"
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "jest": "^29.7.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
   }
 }
