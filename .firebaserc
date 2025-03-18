@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "otf-recipes-e7526"
-  }
+    "default": "otf-recipes-e7526",
+    "OTF RECIPES DADDY": "otf-recipes-e7526"
+  },
+  "targets": {},
+  "etags": {}
 }
