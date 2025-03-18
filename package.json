@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/itsdankai/otf-recipes#readme",
   "dependencies": {
+    "dotenv": "^16.4.7",
     "firebase": "^11.4.0"
   }
 }

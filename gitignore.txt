@@ -4,3 +4,6 @@ node_modules/
 # Ignore Firebase configuration files
 firebase.json
 .firestore/
+
+# Environment variables
+.env
